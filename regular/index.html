@@ -2,7 +2,7 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 		<title>Neo Li - Software Engineer Online Portfolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -21,6 +21,12 @@
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<script type="text/javascript">
+		  var loc = window.location.href+'';
+		  if (window.location.hostname!='localhost' && loc.indexOf('http://')==0){
+		      window.location.href = loc.replace('http://','https://');
+			  }
+		  </script>
 	</head>
 	<body>
 		<div class="top-decorations">
